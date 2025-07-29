@@ -1,17 +1,99 @@
 ## 📌 목차
+- [📝 RENOBIT 3.1.0](#-RENOBIT-310-)  
 - [📝 TIM+ 2.0.2 ](#-tim-202-)
 - [📝 TIM+ 2.0.1 ](#-tim-201-)
 - [📝 TIM+ 2.0.0 ](#-tim-200-)
-- [📝 TIM+ 1.0.3 ](#-tim-103-)  <br><br>
+- [📝 TIM+ 1.0.3 ](#-tim-103-)
 
+--------------------------------------------------------
+## 📝 RENOBIT 3.1.0 <a name="RENOBIT-310"></a><br>
+
+
+ 📦 버전 정보
+
+• 버전: v3.1.0 
+• 릴리즈 일자: 2025년 07월 15일<br><br>
+
+ 
+ 
+ ✨ Update 
+• THREE.js 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ r147 → r174 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 최신 WebGL/3D 기술 반영 및 호환성 확보 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 향상된 렌더링 품질 및 성능 개선, 향후 기능 확장 기반 마련 
+
+• 애니메이션 라이브러리 Anime.js 지원 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 안정성과 호환성을 고려하여 v3(LTS) 기준으로 지원
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Anime.js 공식 사이트 참고 <br><br>
+
+ 
+
+ 🧩Feature 
+  🗂 그룹 관리 기능 개선 
+
+• Editor Group Tree
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 에디터 좌측 사이드 패널에 ‘그룹 리스트’ 패널 추가
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 그룹 단위로 컴포넌트를 확인 가능 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 각 그룹과 컴포넌트의 소속 관계 파악 가능 
+
+• Codebox Group Tree 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 코드박스 좌측 사이드 패널에 ‘그룹 리스트’ 패널 추가 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 현재 선택한 그룹 컴포넌트에 포함된 인스턴스 목록 표시 
+
+• Codebox Instance Path 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 그룹에 속한 컴포넌트의 상위 그룹 구조를 Path 형태로 확인 가능 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 선택한 컴포넌트의 배치 경로 표시 
+
+ 
+
+        * 자세한 사용 방법은 메뉴얼을 참고해 주세요. 
+<br>
+ 
+
+  🛠 개발 생산성 향상을 위한 모듈 추가 
+
+• WKit : 런타임 이벤트 바인딩 및 컴포넌트 초기화 유틸리티 
+• GlobalDataPublisher : 전역 데이터 매핑 및 구독 기반 데이터 전파 시스템 
+• WEventBus : 컴포넌트 간 커뮤니케이션을 위한 글로벌 이벤트 버스<br><br>
+
+ 
+
+ 🐞 Bugfix 
+
+• 통합 가져오기 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 통합 가져오기 시 페이지 ID 중복 여부에 대한 체크 개선 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 멀티 데이터소스 설정에 대한 동적 로딩이 정상적으로 동작하지 않던 문제 수정 
+
+• 데이터셋 내보내기 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 데이터셋 내보내기 시 일부 데이터 (UserId, URL)의 복호화가 누락되는 현상 해결 
+
+• 설정 파일 암호화 ( globals.properties ) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Globals.DbType 설정을 암호화할 때 데이터셋의 동적 DB 쿼리 접근이 제한되던 문제 수정
+
+• Oracle DB 스키마 
+
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ TB_LOGIN_HIST 테이블 SESSION_ID 컬럼 크기 이슈 수정 
+
+• 기타 보고된 이슈 수정
+
+
+---------------------------------------------------------
 
 
 ## 📝 TIM+ 2.0.2 <a name="tim-202"></a><br>
 
 
-📦 버전 정보
+ 📦 버전 정보
 
-• 버전: v2.0.2 <br>
+• 버전: v2.0.2
 • 릴리즈 일자: 2025년 07월 24일<br><br>
 
  
@@ -28,11 +110,11 @@
 
  🔧 적용 방법
 
-• timplus.yml 에서 하기 같이 입력<br>
-&nbsp;&nbsp;&nbsp; # timplus: <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    version: 2.0.2 <br>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   httpclient: <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ignore-ssl-cert: true <br>
+• timplus.yml 에서 하기 같이 입력
+&nbsp;&nbsp;&nbsp; # timplus: 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    version: 2.0.2
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   httpclient:
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ignore-ssl-cert: true
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       enabled-custom-SSL: true <br><br><br>
 
  
@@ -48,7 +130,7 @@
 
 📦 버전 정보
 
-• 버전: v2.0.1 <br>
+• 버전: v2.0.1
 • 릴리즈 일자: 2025년 07월 23일 <br><br>
 
  
@@ -95,7 +177,7 @@
 
 📦 버전 정보
 
-• 버전: v2.0.0 <br>
+• 버전: v2.0.0
 • 릴리즈 일자: 2025년 07월 09일<br><br>
 
  
@@ -195,8 +277,7 @@
 ## 📝 TIM+ 1.0.3 <a name="tim-103"><br>
 
 📦 버전 정보
-
-• 버전: v1.0.3 <br>
+• 버전: v1.0.3
 • 릴리즈 일자: 2025년 06월 09일<br><br>
 
  
@@ -206,7 +287,6 @@
 🚀 TIM+ Engine
 
 • TransactionQueryTask : clickhouse 테스트 오류 수정
-
 • MybatisDirectRegisterTask : clickhouse 테스트 오류 수정 <br><br>
 
  

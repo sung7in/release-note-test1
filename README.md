@@ -111,7 +111,7 @@
  🔧 적용 방법
 
 • timplus.yml 에서 하기 같이 입력
-&nbsp;&nbsp;&nbsp; # timplus: 
+&nbsp;&nbsp;&nbsp; # timplus: <br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    version: 2.0.2 <br>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   httpclient: <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       ignore-ssl-cert: true <br>

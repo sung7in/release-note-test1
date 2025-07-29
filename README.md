@@ -213,45 +213,28 @@
 
 🚀 TIM+ Engine
 
-• 비밀번호 정책, 워크플로우 모니터링 관련 오류 수정
-
-• SQLRawQueryTask 롤백 미작동 문제 수정
-
-• MybatisDirectRegisterTask autoCommit 설정 반영 문제 수정
-
-• Add Header to Response, Set Header in Response 태스크의 필수 파라미터 검증 오류 수정
-
-• Parse Text By Delimiter 태스크의 파싱 오류 수정
-
-• 로그 출력 개선
-
-• format(fmt) -> String Built-In 함수 오류 수정
-
+• 비밀번호 정책, 워크플로우 모니터링 관련 오류 수정 <br>
+• SQLRawQueryTask 롤백 미작동 문제 수정<br>
+• MybatisDirectRegisterTask autoCommit 설정 반영 문제 수정<br>
+• Add Header to Response, Set Header in Response 태스크의 필수 파라미터 검증 오류 수정<br>
+• Parse Text By Delimiter 태스크의 파싱 오류 수정<br>
+• 로그 출력 개선<br>
+• format(fmt) -> String Built-In 함수 오류 수정<br>
 • UserPolicyEntity 의 createdAt DTO의 create_at 컬럼 매핑 정리 (nullable = false) <br><br>
 
  
 
-
 🚀 TIM+ Studio
 
-• 워크플로우 등록 레이어 팝업 내 컨펌 텍스트 유지되는 오류 수정
-
-• 로그인 화면 내 언어 변경 시 invalid text 문구 변경 되지 않는 오류 수정
-
-• 태스크 추가/삭제 후 저장 알림 중복 문제 수정
-
-• 태스크 등록/수정 > 간헐적으로 유효성 검사 실패하는 오류 수정
-
-• 대시보드가 크롬과 엣지에서 워크플로우 정보가 다르게 표출되는 오류 수정
-
-• TransactionQueryTask에서 Testing 팝업 정렬 이슈 수정
-
-• fixedRate,fixedDelay,initialDelay에 숫자만 입력 되도록 수정
-
-• 태스크 삭제 컨펌 문구 오타 및 아이콘 드래그 시 오류 수정
-
-• 브라우저 화면 비율 확대 시 시스템 정보 페이지 UI 깨짐 문제 수정
-
+• 워크플로우 등록 레이어 팝업 내 컨펌 텍스트 유지되는 오류 수정<br>
+• 로그인 화면 내 언어 변경 시 invalid text 문구 변경 되지 않는 오류 수정<br>
+• 태스크 추가/삭제 후 저장 알림 중복 문제 수정<br>
+• 태스크 등록/수정 > 간헐적으로 유효성 검사 실패하는 오류 수정<br>
+• 대시보드가 크롬과 엣지에서 워크플로우 정보가 다르게 표출되는 오류 수정<br>
+• TransactionQueryTask에서 Testing 팝업 정렬 이슈 수정<br>
+• fixedRate,fixedDelay,initialDelay에 숫자만 입력 되도록 수정<br>
+• 태스크 삭제 컨펌 문구 오타 및 아이콘 드래그 시 오류 수정<br>
+• 브라우저 화면 비율 확대 시 시스템 정보 페이지 UI 깨짐 문제 수정<br>
 • Multiple Assign, Parse Text By Delimiter 태스크에서 기존 데이터 삭제되는 문제 수정
 
 
@@ -271,15 +254,13 @@
 
 🚀 TIM+ Engine
 
-• TransactionQueryTask : clickhouse 테스트 오류 수정
+• TransactionQueryTask : clickhouse 테스트 오류 수정<br>
 • MybatisDirectRegisterTask : clickhouse 테스트 오류 수정 <br><br>
 
  
 
 📁 기타 변경 사항
 
-• 설치 가이드가 개발자 가이드에 통합되었습니다. 
-
-• 패키지에는 관리자 가이드와 개발자 가이드가 제공됩니다.
-
+• 설치 가이드가 개발자 가이드에 통합되었습니다. <br>
+• 패키지에는 관리자 가이드와 개발자 가이드가 제공됩니다.<br>
 • 개발자 가이드 5.1 TIM+ Container 서비스 항목이 신규 추가 되었습니다.

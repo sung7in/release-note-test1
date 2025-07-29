@@ -6,7 +6,7 @@
 
 
 
-## 📝 TIM+ 2.0.2 <a name="tim-202"></a><br><br>
+## 📝 TIM+ 2.0.2 <a name="tim-202"></a><br>
 
 
 📦 버전 정보
@@ -44,7 +44,7 @@
 
 
 
-## 📝 TIM+ 2.0.1 <a name="tim-201"><br><br>
+## 📝 TIM+ 2.0.1 <a name="tim-201"><br>
 
 📦 버전 정보
 
@@ -91,7 +91,7 @@
 
 
 
-## 📝 TIM+ 2.0.0 <a name="tim-200"><br><br>
+## 📝 TIM+ 2.0.0 <a name="tim-200"><br>
 
 📦 버전 정보
 
@@ -192,7 +192,7 @@
 
 
 
-## 📝 TIM+ 1.0.3 <a name="tim-103"><br><br>
+## 📝 TIM+ 1.0.3 <a name="tim-103"><br>
 
 📦 버전 정보
 

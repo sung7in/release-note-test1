@@ -46,7 +46,7 @@
 
 • Codebox Instance Path 
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 그룹에 속한 컴포넌트의 상위 그룹 구조를 Path 형태로 확인 가능 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 그룹에 속한 컴포넌트의 상위 그룹 구조를 Path 형태로 확인 가능  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  ▪ 선택한 컴포넌트의 배치 경로 표시 
 
  
@@ -57,8 +57,8 @@
 
   🛠 개발 생산성 향상을 위한 모듈 추가 
 
-• WKit : 런타임 이벤트 바인딩 및 컴포넌트 초기화 유틸리티 
-• GlobalDataPublisher : 전역 데이터 매핑 및 구독 기반 데이터 전파 시스템 
+• WKit : 런타임 이벤트 바인딩 및 컴포넌트 초기화 유틸리티  <br>
+• GlobalDataPublisher : 전역 데이터 매핑 및 구독 기반 데이터 전파 시스템 <br>
 • WEventBus : 컴포넌트 간 커뮤니케이션을 위한 글로벌 이벤트 버스<br><br>
 
  
@@ -67,12 +67,12 @@
 
 • 통합 가져오기 
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 통합 가져오기 시 페이지 ID 중복 여부에 대한 체크 개선 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 통합 가져오기 시 페이지 ID 중복 여부에 대한 체크 개선 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  ▪ 멀티 데이터소스 설정에 대한 동적 로딩이 정상적으로 동작하지 않던 문제 수정 
 
 • 데이터셋 내보내기 
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 데이터셋 내보내기 시 일부 데이터 (UserId, URL)의 복호화가 누락되는 현상 해결 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 데이터셋 내보내기 시 일부 데이터 (UserId, URL)의 복호화가 누락되는 현상 해결
 
 • 설정 파일 암호화 ( globals.properties ) 
 

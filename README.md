@@ -19,13 +19,13 @@
  ✨ Update 
 • THREE.js 
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ r147 → r174 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 최신 WebGL/3D 기술 반영 및 호환성 확보 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 향상된 렌더링 품질 및 성능 개선, 향후 기능 확장 기반 마련 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ r147 → r174 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 최신 WebGL/3D 기술 반영 및 호환성 확보 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 향상된 렌더링 품질 및 성능 개선, 향후 기능 확장 기반 마련 <br>
 
 • 애니메이션 라이브러리 Anime.js 지원 
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 안정성과 호환성을 고려하여 v3(LTS) 기준으로 지원
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 안정성과 호환성을 고려하여 v3(LTS) 기준으로 지원 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  ▪ Anime.js 공식 사이트 참고 <br><br>
 
  
@@ -35,13 +35,13 @@
 
 • Editor Group Tree
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 에디터 좌측 사이드 패널에 ‘그룹 리스트’ 패널 추가
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 그룹 단위로 컴포넌트를 확인 가능 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 에디터 좌측 사이드 패널에 ‘그룹 리스트’ 패널 추가 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 그룹 단위로 컴포넌트를 확인 가능 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  ▪ 각 그룹과 컴포넌트의 소속 관계 파악 가능 
 
 • Codebox Group Tree 
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 코드박스 좌측 사이드 패널에 ‘그룹 리스트’ 패널 추가 
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 코드박스 좌측 사이드 패널에 ‘그룹 리스트’ 패널 추가 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  ▪ 현재 선택한 그룹 컴포넌트에 포함된 인스턴스 목록 표시 
 
 • Codebox Instance Path 

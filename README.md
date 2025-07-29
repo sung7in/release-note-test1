@@ -140,8 +140,7 @@
 
 • 확장 태스크 추가
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ HazelcastMemoryDebugTask 
-
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ HazelcastMemoryDebugTask <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  ▪ ExtractXmlByXPathTask (실행 중 XPath 평가 기능 포함) <br><br>
 
  
@@ -164,8 +163,7 @@
 
 • 기본 예제 워크플로우 백업 파일 등록
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 2025.07.04 교육 내용을 반영한 워크플로우 예제 백업 파일이 추가되었습니다.
-
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ 2025.07.04 교육 내용을 반영한 워크플로우 예제 백업 파일이 추가되었습니다. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;  ▪ 파일경로 : timplus-engine/files/sample/xxxx_example.tpbk
 
 
@@ -190,36 +188,23 @@
 
 • Built-In 함수 추가
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ splitToList: 구분자로 문자열을 나눠 리스트로 반환
-
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ joinFromList: 리스트를 구분자로 결합한 문자열 반환
-
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ replaceAll: 정규식 기반 문자열 치환
-
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ formatDateTime: 밀리초 시간을 포맷된 문자열로 변환
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ splitToList: 구분자로 문자열을 나눠 리스트로 반환 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ joinFromList: 리스트를 구분자로 결합한 문자열 반환 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ replaceAll: 정규식 기반 문자열 치환 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ formatDateTime: 밀리초 시간을 포맷된 문자열로 변환 
 
 • 신규 태스크 추가
 
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Exit 태스크
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ 성공/실패 관계없이 즉시 워크플로우 종료
-
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Zabbix 연동 태스크
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 로그인 (Zabbix Login)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 호스트 조회 (Zabbix Host Resolve)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 호스트 그룹 조회 (Zabbix HostGroup Resolve)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 아이템 마지막 값 조회 (Zabbix Item Last Value)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 아이템 히스토리 조회 (Zabbix Item History)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 아이템 트렌드 조회 (Zabbix Item Trend)
-
-&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Read a text file line by line 태스크
-
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Exit 태스크 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ 성공/실패 관계없이 즉시 워크플로우 종료 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Zabbix 연동 태스크 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 로그인 (Zabbix Login) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 호스트 조회 (Zabbix Host Resolve)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 호스트 그룹 조회 (Zabbix HostGroup Resolve)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 아이템 마지막 값 조회 (Zabbix Item Last Value)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 아이템 히스토리 조회 (Zabbix Item History)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ Zabbix 아이템 트렌드 조회 (Zabbix Item Trend)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;  ▪ Read a text file line by line 태스크<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ○ 텍스트 파일을 한 줄씩 읽기<br><br>
 
  
